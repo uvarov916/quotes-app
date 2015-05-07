@@ -1,0 +1,8 @@
+<h1>Quotes</h1>
+
+{% for quote in quotes %}
+<div class="single-quote">
+  <p class="quote-text">{{quote.text}}</p>
+  <p class="quote-author">{{quote.author}}</p>
+</div>
+{% endfor %}

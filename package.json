@@ -1,0 +1,17 @@
+{
+  "name": "quotes-app",
+  "version": "0.0.1",
+  "decription": "App for collecting quotes",
+  "author": "Ivan Uvarov <tonk2012@gmail.com>",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "consolidate": "~0.9.1",
+    "express": "4.x",
+    "mongodb": "1.4.x",
+    "swig": "*",
+    "body-parser": "*"
+  },
+  "license": "MIT"
+}
